@@ -133,9 +133,11 @@ PART 3:
 
         <!----- SECTION 4 ----->
 <!--added container-fluid class, centered text, added margins and changed font size -->
+
+<!--question here on page it looks like the mb is not showing up between the large and medium dog-->
         <div id="medium-dog" class="container-fluid text-center mb-5 fs-4">
           <div class="row"><h3>Medium Breeds</h3></div>
-        <div class="container-fluid">
+        <div class="container">
           <div class="row">
             <div class="col-md-4">
               Border Collie
@@ -148,7 +150,7 @@ PART 3:
             </div>
           </div>
         </div>
-        <div class="container-fluid">
+        <div class="container">
           <div class="row">
             <div class="col-md-4">
               Bulldog
@@ -163,15 +165,24 @@ PART 3:
         </div>
 
         <!----- SECTION 5 ----->
-<!--made changes here. Question: are we making the changes to just the title of this section or the entire thing.-->
-        <div id="large-dog" class=" container-fluid text-center mb-5 fs-3">
+<!--made changes here. Question: are we making the changes to just the title of this section or the entire thing.Added a top margin here to make a cosmetic margin between med and lg dog-->
+        <div id="large-dog" class="container text-center mb-5 mt-5 fs-3">
           <div class="row"><h3>Large Breeds</h3></div>
 
+        <div class="container"></div>
           <div class="row p-1">
-            <div class=" ">Golden Retriever</div>
-            <div class=" ">Great Dane</div>
-            <div class=" ">German Shepherd</div>
-            <div class=" ">Rottweiler</div>
+            <div class="col-md-4">
+              Golden Retriever
+            </div>
+            <div class="col-md-4">
+              Great Dane
+            </div>
+            <div class="col-md-4">
+              German Shepherd
+            </div>
+            <div class="col-md-4">
+              Rottweiler
+            </div>
           </div>
         </div>
       </div>
